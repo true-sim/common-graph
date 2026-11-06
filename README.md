@@ -55,3 +55,7 @@ Schedule s = g.compile();      // draw, then bloom; color lives from position 0 
 int[] active = new int[s.size()];
 int n = s.active(0L, active);  // bloom switched off: only draw runs
 ```
+
+## Licence
+
+MIT, see [LICENSE](LICENSE).
